@@ -4,15 +4,13 @@ import Form from "./components/Form";
 import Navbar from "./components/Navbar";
 import Section from "./components/Section";
 
-const App = () => {
-  return (
-    <React.Fragment>
-      <Navbar />
-      <Section>
-        <Form />
-      </Section>
-    </React.Fragment>
-  );
-};
+const App = () => (
+  <>
+    <Navbar />
+    <Section>
+      <Form />
+    </Section>
+  </>
+);
 
 export default App;
